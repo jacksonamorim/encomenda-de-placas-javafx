@@ -1,0 +1,57 @@
+/*ESTILO PARA TABLE VIEW - 2 A 37*/
+.table-view{ 
+    -fx-background-color: transparent; 
+    -fx-border-color: #c1c1c1;
+} 
+.table-view:focused{ 
+    -fx-background-color: transparent;
+} 
+.table-view .column-header-background{ 
+    -fx-background-color:  #b51f1f;
+    -fx-border-color: white;
+} 
+.table-view .column-header-background .label{ 
+    -fx-background-color:  #b51f1f; 
+    -fx-text-fill: white; 
+} 
+.table-view .column-header { 
+    -fx-background-color: transparent; 
+} 
+.table-view .table-cell{ 
+    -fx-text-fill: black; 
+}
+
+.table-row-cell{ 
+    -fx-background-color: -fx-table-cell-border-color, #ffffff; 
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em; 
+} 
+.table-row-cell:selected .table-cell{ 
+    -fx-background-color: #b51f1f;
+    -fx-text-fill: white;
+    -fx-background-insets: 0; 
+    -fx-background-radius: 1; 
+}
+.table-view .filler{
+    -fx-background-color: #b51f1f;
+}
+/*STYLE FOR COMBOBOX*/
+.combo-box .list-cell:hover{
+    -fx-background-color: #b51f1f;
+}
+/*STYLE FOR MENU BUTTON*/
+.button:hover{
+    -fx-background-color: #ffffff;
+}
+.button:hover .glyph-icon{
+    -fx-fill: black;
+}
+.home:hover{
+    -fx-background-color:#b51f1f;
+}
+.home:hover .glyph-icon{
+    -fx-fill: white;
+}
+.close:hover .glyph-icon{
+    -fx-fill:#b51f1f;
+}

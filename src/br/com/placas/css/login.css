@@ -1,0 +1,13 @@
+/*STYLE FOR BUTTONS LOGIN*/
+.entrar:hover{
+    -fx-background-color:green;
+}
+.entrar:hover .glyph-icon{
+    -fx-fill:white;
+}
+.sair:hover{
+    -fx-background-color:#b51f1f;
+}
+.sair:hover .glyph-icon{
+    -fx-fill:white;
+}
